@@ -71,7 +71,7 @@ emailAddress = cto.dev@dev.inlanefreight.htb
 ## Connection
 
 ```bash
-openssl s_client -connect 10.129.54.139:993
+openssl s_client -connect TARGET_IP:993
 ```
 
 ## Result
