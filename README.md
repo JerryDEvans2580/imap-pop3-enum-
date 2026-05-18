@@ -2,7 +2,6 @@
 
 ## 📌 Target Information
 
-- Target IP: `10.129.54.139`
 - Environment: HTB Academy Lab
 - Scope: Mail Services Enumeration
 
@@ -37,7 +36,7 @@ The assessment resulted in successful extraction of:
 ## Nmap Scan
 
 ```bash
-sudo nmap 10.129.54.139 -sV -p110,143,993,995 -sC
+sudo nmap TARGET_IP -sV -p110,143,993,995 -sC
 ```
 
 ## Key Findings
