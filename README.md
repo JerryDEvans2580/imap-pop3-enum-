@@ -91,7 +91,7 @@ imap/imaps_banner.txt
 ## Connection
 
 ```bash
-openssl s_client -connect 10.129.54.139:995
+openssl s_client -connect TARGET_IP:995
 ```
 
 ## Result
@@ -115,7 +115,7 @@ IMAP requires command tags.
 Example:
 
 ```text
-a1 LOGIN robin robin
+a1 LOGIN robin Rob2255@
 ```
 
 See:
@@ -167,7 +167,7 @@ a4 FETCH 1 BODY[]
 ## Banner Flag
 
 ```text
-HTB{983uzn8jmfgpd8jmof8c34n7zio}
+HTB{roncfbw7iszerd7shni7jr2343zhrj}
 ```
 
 ## Mailbox Flag
