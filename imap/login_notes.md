@@ -3,7 +3,7 @@
 ## Incorrect Syntax
 
 ```text
-LOGIN robin robin
+LOGIN robin Rob2540@
 ```
 
 ## Server Response
@@ -15,7 +15,7 @@ BAD First parameter in line is IMAP's command tag
 ## Correct Syntax
 
 ```text
-a1 LOGIN robin robin
+a1 LOGIN robin Rob2540@
 ```
 
 ## IMAP Format
