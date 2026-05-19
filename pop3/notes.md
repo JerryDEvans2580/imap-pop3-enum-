@@ -6,7 +6,7 @@
 
 ```text
 USER robin
-PASS Rob2540@
+PASS pasword
 ```
 
 ### Capabilities
