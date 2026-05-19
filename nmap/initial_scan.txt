@@ -1,1 +1,28 @@
+PORT    STATE SERVICE  VERSION
+110/tcp open  pop3     Dovecot pop3d
+| ssl-cert: Subject: commonName=dev.inlanefreight.htb/organizationName=InlaneFreight Ltd/stateOrProvinceName=London/countryName=UK
+| Not valid before: 2021-11-08T23:10:05
+|_Not valid after:  2295-08-23T23:10:05
+|_pop3-capabilities: RESP-CODES AUTH-RESP-CODE UIDL PIPELINING TOP STLS SASL CAPA
+|_ssl-date: TLS randomness does not represent time
 
+143/tcp open  imap     Dovecot imapd
+| ssl-cert: Subject: commonName=dev.inlanefreight.htb/organizationName=InlaneFreight Ltd/stateOrProvinceName=London/countryName=UK
+| Not valid before: 2021-11-08T23:10:05
+|_Not valid after:  2295-08-23T23:10:05
+|_ssl-date: TLS randomness does not represent time
+|_imap-capabilities: LOGIN-REFERRALS capabilities Pre-login ENABLE more LOGINDISABLEDA0001 have SASL-IR listed IDLE post-login IMAP4rev1 ID OK STARTTLS LITERAL+
+
+993/tcp open  ssl/imap Dovecot imapd
+|_imap-capabilities: LOGIN-REFERRALS capabilities Pre-login ENABLE listed more SASL-IR have IDLE post-login IMAP4rev1 ID OK AUTH=PLAINA0001 LITERAL+
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=dev.inlanefreight.htb/organizationName=InlaneFreight Ltd/stateOrProvinceName=London/countryName=UK
+| Not valid before: 2021-11-08T23:10:05
+|_Not valid after:  2295-08-23T23:10:05
+
+995/tcp open  ssl/pop3 Dovecot pop3d
+| ssl-cert: Subject: commonName=dev.inlanefreight.htb/organizationName=InlaneFreight Ltd/stateOrProvinceName=London/countryName=UK
+| Not valid before: 2021-11-08T23:10:05
+|_Not valid after:  2295-08-23T23:10:05
+|_ssl-date: TLS randomness does not represent time
+|_pop3-capabilities: RESP-CODES AUTH-RESP-CODE UIDL SASL(PLAIN) TOP PIPELINING USER CAPA
