@@ -5,7 +5,7 @@
 ### USER Authentication
 
 ```text
-USER username
+USER robin
 PASS password
 ```
 
