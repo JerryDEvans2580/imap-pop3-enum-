@@ -115,7 +115,7 @@ IMAP requires command tags.
 Example:
 
 ```text
-a1 LOGIN robin Rob2255@
+a1 LOGIN robin Rob2540@
 ```
 
 See:
